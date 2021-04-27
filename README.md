@@ -1,11 +1,11 @@
-# Demo2
+# Demo2 :blush:
 基于vue+go-gin+mysql的markdown文本存储和图片上传小Demo
 ## describe(描述)
 Demo2采用前后端分离的方式开发，借助[ mavonEditor](https://github.com/hinesboy/mavonEditor/blob/master/doc/cn/upload-images.md)只需关注后端所需接口的实现即可。通过保存接口，用户书写的markdown文本将被存入数据库中。通过图片上传接口，用户的图片将被存入服务器指定的位置并返回响应的url。此外demo2还实现了查找文章等相关接口。
 
 Demo2对数据库、路由、中间件、返回请求、工具类、数据模型和配置文件均进行了不同程度的封装。简单修改即可开始搭建其他业务逻辑。
 
-Demo2借鉴了==Pipe==“自底向上”的分类方式：
+Demo2借鉴了[Pipe](https://github.com/88250/pipe)“自底向上”的分类方式：
 > 1. 定义分类，并配置该分类包含的标签
 > 2. 查询某个分类文章列表时通过分类-->标签集 --> 标签关联的文章进行聚合
 >
@@ -16,7 +16,7 @@ Demo2借鉴了==Pipe==“自底向上”的分类方式：
 
 ### backend部分
 #### step1 
-在拉取demo1后，需要修改位于==config/application.yml==的配置信息
+在拉取demo1后，需要修改位于 `config/application.yml` 的配置信息
 ```
 server:
   port: 8080
@@ -30,7 +30,7 @@ datasource:
   charset: utf8
 ```
 #### step 2
-修改位于==controller/UserCommit==下的UploadImg函数
+修改位于`controller/UserCommit`下的UploadImg函数
 ```
 func UploadImg(ctx *gin.Context) {
 	file, _ := ctx.FormFile("image")
