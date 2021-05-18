@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <el-button type="primary" @click="update()">进入编辑模式</el-button>
     <div>{{article.title}}</div>
     <div>{{article.tag}}</div>
               <mavon-editor
@@ -54,6 +55,15 @@ export default {
           }).then(res => {
               this.article = res.data.data.article
               this.context = this.article.body
+          })
+      },
+      update() {
+        let that = this
+        this.$store.dispatch('updateArticle', {
+          "title":this.title,
+          success: () => {
+            that.$router.push("/edit")
+          }
           })
       }
   }

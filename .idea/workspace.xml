@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae6a79ba-065f-4b85-9b58-a67fa748d2a0" name="默认变更列表" comment="" />
+    <list default="true" id="ae6a79ba-065f-4b85-9b58-a67fa748d2a0" name="默认变更列表" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo2_backend/common/database.go" beforeDir="false" afterPath="$PROJECT_DIR$/demo2_backend/common/database.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo2_backend/config/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/demo2_backend/config/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo2_backend/controller/UserCommit.go" beforeDir="false" afterPath="$PROJECT_DIR$/demo2_backend/controller/UserCommit.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo2_backend/dto/artical_dto.go" beforeDir="false" afterPath="$PROJECT_DIR$/demo2_backend/dto/artical_dto.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo2_backend/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/demo2_backend/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo2_backend/model/artical.go" beforeDir="false" afterPath="$PROJECT_DIR$/demo2_backend/model/artical.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo2_backend/router/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/demo2_backend/router/router.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo2_backend/util/util.go" beforeDir="false" afterPath="$PROJECT_DIR$/demo2_backend/util/util.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo2_frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo2_frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo2_frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo2_frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo2_frontend/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo2_frontend/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo2_frontend/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo2_frontend/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo2_frontend/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/demo2_frontend/src/views/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo2_frontend/src/views/check.vue" beforeDir="false" afterPath="$PROJECT_DIR$/demo2_frontend/src/views/check.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo2_frontend/src/views/edit.vue" beforeDir="false" afterPath="$PROJECT_DIR$/demo2_frontend/src/views/edit.vue" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../../../Go" />
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../../Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -23,7 +40,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RunManager">

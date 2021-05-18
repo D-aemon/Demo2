@@ -30,6 +30,8 @@ func InitDb() *gorm.DB {
 	}
 
 	db.AutoMigrate(&model.Article{})
+	db.AutoMigrate(&model.Tag{})
+	db.AutoMigrate(&model.Relation{})
 
 	DB = db
 	return db
